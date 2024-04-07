@@ -54,13 +54,16 @@ public class TransactionManagerService {
                 LocalDate.now()
         );
 
+        // check if the currency of fromAccount is different before conversion
         if (fromAccount.getBalance().getCurrency() != convertedFromAccountValue.getCurrency()) {
+            // check if initial currencies of fromAccount and value are the same
             if (fromAccount.getBalance().getCurrency() == value.getCurrency()){
                 fromAccount.getBalance().setAmount(fromAccount.getBalance().getAmount() - value.getAmount());
             } else if (fromAccount.getBalance().getCurrency() != value.getCurrency()) {
                 MoneyModel fromAccountCurrencyValue = MoneyUtils.convert(value, fromAccount.getBalance().getCurrency());
                 fromAccount.getBalance().setAmount(fromAccount.getBalance().getAmount() - fromAccountCurrencyValue.getAmount());
             }
+        // if the currency of fromAccount is the same before conversion, it means that the currency of toAccount is the same as the currency of fromAccount
         } else {
             fromAccount.getBalance().setAmount(convertedFromAccountValue.getAmount() - convertedValue.getAmount());
         }

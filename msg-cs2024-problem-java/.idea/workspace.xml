@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e06bbced-9bde-4d39-ad4c-ab160d66355e" name="Changes" comment="first commit" />
+    <list default="true" id="e06bbced-9bde-4d39-ad4c-ab160d66355e" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BankingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BankingApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/SavingsManagerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/SavingsManagerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/TransactionManagerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/TransactionManagerService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -105,6 +110,9 @@
       <workItem from="1712407787600" duration="14817000" />
       <workItem from="1712427662683" duration="518000" />
       <workItem from="1712429052952" duration="340000" />
+      <workItem from="1712429582694" duration="10000" />
+      <workItem from="1712429594242" duration="615000" />
+      <workItem from="1712511398099" duration="4025000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -119,6 +127,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
